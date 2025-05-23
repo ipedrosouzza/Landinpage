@@ -341,13 +341,14 @@ nav {
 .steps {
     display: flex;
     flex-direction: column;
-    gap: 80px;
+    gap: 40px;
 }
 
 .step {
     display: flex;
     align-items: center;
     gap: 30px;
+    flex-wrap: wrap;
 }
 
 .step-number {
